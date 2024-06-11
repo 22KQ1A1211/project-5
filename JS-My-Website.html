@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            .container {
+                margin: 0 auto;
+                box-sizing: border-box;
+            }
+            /*smartphones (portrait and landscope)-------*/
+            @media screen and(min-width: 767px) {
+                .container {
+                    width:100%;
+                    padding:5px 10px;
+                }
+            }
+            /* tablets, ipads (portait and landscape)--------*/
+            @media  screen and (min-width:768px) and (max-width:1024px) {
+                .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+            /* low resolution desktops and laptops----------*/
+            @media screen and (min-width:1024px) {
+                .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+            /*High resolution desktops and laptops---------*/
+            @media screen and (min-width: 1280px) {
+                .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+            body {
+                background-size: 100% 100%;
+                background-color: lightskyblue;
+            }
+        </style>
+        <style>
+            body {
+                background-size: 100% 100%;
+                background-color: lightskyblue;
+            }
+            </style>
+        <style>
+            body {
+                background-size: 100% 100%;
+            }
+            h1 {
+                text-shadow: 5px 5px 10px orangered;
+            }
+            h2 {
+                text-shadow: 10px 10px 20px red;
+                margin-top: 125px;
+                padding-bottom: 120px;
+            }
+            /*CSS for styling the navigation menu*/
+            nav {
+               background-color: orangered;
+                color:antiquewhite;
+                padding: 10px;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 15px;
+            }
+            nav ul li a {
+                color:white;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+            .images {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                gap: 50px;
+                padding:20px;
+            }
+            .cont {
+                width: 250px;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+                transition: transform 0.35;
+            }
+            .cont:hover {
+                transform: scale(1.05);
+            }
+            .cont img {
+                width: 100%;
+                height:auto;
+            }
+            .cont span {
+                display: block;
+                padding: 10px;
+                background-color: azure;
+                text-align: center;
+                font-weight: bolder;
+                color:black;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+    <center> <h1>VARSHII DIY CRAFT DESIGNS</h1></center>
+    <nav>
+        <ul>
+            <h3>
+            <li><a href="JS-Home.html">Home</a></li>
+            <li><a href="sign-in-logVal.html">Sign In</a></li>
+            <li><a href="Reg-Validation-CSS.html">Registration</a></li>
+            <li><a href="login-validation-CSS.html">Login</a></li>
+            <li><a href="about-JS.html">About Us</a></li>
+            <li><a href="Options-JS.html">Options</a></li>
+            <li><a href="oder-page-JS.html">Oder</a></li>
+            <li><a href="JS-contact.html">Contact</a></li>
+            </h3>
+        </ul>
+    </nav>
+    <h2>
+        <div class="images">
+            <a href="https://www.youtube.com/watch?v=vs7oATSbchk">
+            <div class="cont">
+                <img src="wall-decor.jpg" alt="Wall Decor">
+                <span>WALL DECOR</span>
+            </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dIGHgIGXslM">
+            <div class="cont">
+                <img src="paper-flowers.jpg" alt="Paper Flowers">
+                <span>PAPER FLOWERS</span>
+            </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=pYapIIF0FtU">
+            <div class="cont">
+                <img src="photo-frames.jpg" alt="Photo Frames">
+                <span>PHOTO FRAMES</span>
+            </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=7Giiz0wEgyM">
+            <div class="cont">
+                <img src="paper-works.jpg" alt="Paper works">
+                <span>PAPER WORKS</span>
+            </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=DKhO_dzU6dg">
+                <div class="cont">
+                    <img src= "ban.jpg"alt="Thread Bangles">
+                    <span>THREAD BANGLES</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=xqq_69NXj44">
+                <div class="cont">
+                    <img src="earings.jpg" alt="Thread Earings">
+                    <span>THREAD EARINGS</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=9Mkyx_XF5WY">
+                <div class="cont">
+                    <img src="Crafts.jpg" alt="Crafts">
+                    <span>CRAFTS</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=TLS2krWuOT0" >
+                <div class="cont">
+                    <img src="Functional crafts.jpg" alt="Function decor">
+                    <span>FUNCTION DECOR</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=Y82A6qrUOPE">
+                <div class="cont">
+                    <img src="Arts crafts.jpg" alt="Arts">
+                    <span>ARTS</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=XOp02BJ7Q3k">
+                <div class="cont">
+                    <img src="Natural crafs.jpg" alt="Natural crafts">
+                    <span>NATURAL CRAFTS</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=MdJzRpRZNqA">
+                <div class="cont">
+                    <img src="Artifical crafts.jpg" alt="Artificial crafts">
+                    <span>ARTIFICIAL CRAFTS</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=6d6IkJQU0C0">
+                <div class="cont">
+                    <img src="Hanger crafts.jpg" alt="Hangers">
+                    <span>HANGERS</span>
+                </div>
+            </a>
+        </div>
+    </h2>        
+    </body>
+</html>
+        
